@@ -1,0 +1,78 @@
+.cabecero
+{
+    position: relative;
+    background: linear-gradient(to left,rgba(255, 255, 255, 0.082) 25%,rgba(255, 255, 255, 0.082)25%);
+}
+
+.cabecero button
+{
+    display: inline-block;
+    background:linear-gradient(#440031b0,#3374c8ad);
+    border-radius: 8px;
+    border: none;
+    transition: all 300ms linear;
+}
+
+.cabecero button a
+{
+    color:white;
+}
+
+#conoceme .contenedor-biografia
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(#440031b0,#3374c8ad);
+    width: 35%;
+    height: 350px;
+    border-radius:100%;
+    padding: 20px;
+}
+
+#proyectos .container-proyectos .titulo-proyecto
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background:linear-gradient(#440031b0,#3374c8ad);
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+}
+
+#proyectos .container-proyectos .titulo-proyecto h3
+{
+    color: white;
+}
+
+#proyectos .proyectos .proyecto h3
+{
+    color:white;
+}
+
+main
+{
+    background-image: url("../imagenes/fondopng.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#conocimientos .container-conocimientos .titulo-conocimientos
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background:linear-gradient(#440031b0,#3374c8ad);
+    width: 275px;
+    height: 275px;
+    border-radius: 1000px;
+}
+
+#conocimientos .container-conocimientos .titulo-conocimientos h3
+{
+    color: white;
+}

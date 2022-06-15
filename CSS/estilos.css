@@ -1,0 +1,430 @@
+@font-face
+{
+    src: url("../CSS/fonts/IndieFlower-Regular.ttf");
+    font-family:"indie";
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+header
+{
+    margin-bottom: -4px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.html
+{
+    width: 123px;
+    height: 132px;
+}
+
+.css
+{
+    width: 105px;
+    height: 105px;
+}
+
+.js
+{
+    width: 220px;
+    height: 115px;
+}
+
+.react
+{
+    width: 115px;
+    height: 115px;
+}
+
+.express
+{
+    width: 123px;
+    height: 100px;
+}
+
+.git
+{
+    width: 123px;
+    height: 100px;
+}
+
+.node 
+{
+    width: 123px;
+    height: 102px;
+}
+
+.mysql
+{
+    width: 123px;
+    height: 100px;
+}
+
+.jquery
+{
+    width: 123px;
+    height: 100px;
+}
+
+.contenedor-hamburguesa
+{
+   position: absolute;
+   transform: translateX(-200%);
+}
+
+.hamburguesa
+{
+    display: block !important;
+    background:linear-gradient(#440031dc,#3374c8ad);
+    width: 40%;
+    height: 470px;
+    border-radius:0px 15px 15px 0px;
+    position: fixed;
+    top: 0%;
+}
+
+.cabecero img
+{
+    width: 100%;
+    height:470px;
+}
+
+.cabecero .titulo-cabecero
+{
+    position: absolute;
+    padding: 5px 15px;
+    top: 12%;
+    left: 22%;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.cabecero .conoceme
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 58%;
+    left: 15%;
+    width: 150px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.cabecero .cabecero-proyectos
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 58%;
+    left: 34%;
+    width: 150px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.cabecero .cabecero-conocimiento
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 58%;
+    left: 52%;
+    width: 205px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.cabecero .cabecero-contacto
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 58%;
+    left: 75%;
+    width: 150px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+.cabecero h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.cabecero button:hover
+{
+    background-color:#71d4d1ec;
+}
+
+.cabecero button a
+{
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px;
+    width: 100%;
+}
+
+.modo
+{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 65px;
+    position: fixed;
+}
+
+.modo .container-boton
+{
+    width: 100%;
+    height: 20px;
+    border-radius:20px;
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.modo .container-boton #boton
+{
+    width: 20px;
+    height: 100%;
+    border-radius: 100%;
+    margin-right: 100%;
+    background-color: white;
+}
+
+#conoceme
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 10px;
+    padding-top: 30px;
+    color: white;
+}
+
+#conoceme .contenedor-biografia h2
+{
+    margin-bottom: 10px;
+}
+
+#conoceme .contenedor-biografia p
+{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    width: 80%;
+}
+
+#conoceme .yo
+{
+    display: flex;
+    align-items: center;
+    background-image: url("../imagenes/yo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 35%;
+    height: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#conoceme .yo img 
+{
+    width: 100%;
+}
+
+#proyectos .container-proyectos
+{
+    width: 100%;
+    padding: 15px;
+}
+
+#proyectos .container-proyectos .titulo-proyecto h3
+{
+    font-size: 30px;
+}
+
+#proyectos .proyectos
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#proyectos .proyectos .proyecto 
+{
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    transition: all 300ms linear;
+}
+
+#proyectos .proyectos .proyecto:hover
+{
+    transform: scale(1.1,1.1);
+    border: 2px solid rgb(107, 107, 236);
+    z-index: 1;
+}
+
+#proyectos .proyectos .proyecto img
+{
+    width: 100%;
+    height: 75%;
+}
+
+#proyectos .proyectos .proyecto h3
+{
+    text-align: center;
+    padding: 10px;
+    padding-top:2px;
+}
+
+#proyectos .proyectos .proyecto a
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#proyectos .proyectos .proyecto i
+{
+    font-size: 25px;
+}
+
+#conocimientos .container-conocimientos
+{
+    width: 100%;
+    padding: 15px;
+}
+
+#conocimientos .container-conocimientos .titulo-conocimientos h3
+{
+    font-size: 30px;
+}
+
+#conocimientos .container-conocimientos .conocimientos
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#conocimientos .container-conocimientos .conocimientos .conocimiento
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: 1px solid white;
+    margin-top:15px;
+    transition:all 300ms linear ;
+}
+
+#conocimientos .container-conocimientos .conocimientos .conocimiento:hover
+{
+    transform: scale(1.1,1.1);
+    border: 2px solid rgb(107, 107, 236);
+    z-index: 1;
+}
+
+#contacto
+{
+    background-color: black;
+    border-top: 1px solid white;
+    color: white;
+}
+
+#contacto p
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#contacto .container-footer
+{
+    width: 100%;
+    padding: 20px;
+}
+
+#contacto .container-footer ul
+{
+    list-style: none;
+}
+
+#contacto .container-footer .contactos
+{
+    width: 100%;
+}
+
+#contacto .container-footer .contactos .elemento
+{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    border-bottom: 1px solid white;
+    position:relative;
+}
+
+#contacto .container-footer .contactos li
+{
+    color: white;
+    width: 50%;
+    margin: 20px;
+    margin-left:33px;
+}
+
+#contacto .container-footer .contactos i
+{
+    display:block;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+
+#contacto .container-footer .contactos .elemento a
+{
+    display: block;
+    width: 20%;
+    font-weight: bold;
+}
+
+#contacto .container-footer .contactos .elemento a i
+{
+    top: 29.5%;
+    left: 64.5%;
+}

@@ -1,0 +1,79 @@
+.cabecero
+{
+    position: relative;
+    background: linear-gradient(to left,rgba(255, 255, 255, 0.082) 25%,rgba(255, 255, 255, 0.082)25%);
+}
+
+.cabecero button
+{
+    display: inline-block;
+    background:linear-gradient(45deg,rgba(255, 255, 255, 0.774),#32bde4);
+    border-radius: 8px;
+    border: none;
+    transition: all 300ms linear;
+}
+
+.cabecero button a
+{
+    color: black;
+}
+
+#conoceme .contenedor-biografia
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(45deg,rgba(255, 255, 255, 0.774),#32bde4);
+    color: black !important;
+    width: 35%;
+    height: 350px;
+    border-radius:100%;
+    padding: 20px;
+}
+
+#proyectos .container-proyectos .titulo-proyecto
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background:linear-gradient(45deg,rgba(255, 255, 255, 0.774),#32bde4);
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+}
+
+#proyectos .container-proyectos .titulo-proyecto h3
+{
+    color: black;
+}
+
+main
+{
+    background-image: url("../imagenes/modo-dia.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#conocimientos .container-conocimientos .titulo-conocimientos
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background:linear-gradient(45deg,rgba(255, 255, 255, 0.774),#32bde4);
+    width: 275px;
+    height: 275px;
+    border-radius: 1000px;
+}
+
+#conocimientos .container-conocimientos .titulo-conocimientos h3
+{
+    color: black;
+}
+
+i
+{
+    color: black;
+}

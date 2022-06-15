@@ -1,0 +1,755 @@
+@media (max-width:1100px)
+{
+    #conoceme .contenedor-biografia
+    {
+        width: 30%;
+        height: 300px;
+    }
+
+    #conoceme .contenedor-biografia h2
+    {
+        font-size: 18px;
+        margin-bottom: 5px;
+        width: 85%;
+        text-align: center;
+    }
+    
+    #conoceme .contenedor-biografia p
+    {
+        letter-spacing: none;
+        font-size: 15px;
+    }
+
+    #conoceme .yo
+    {
+        width: 30%;
+        height: 300px;
+    }
+}
+
+@media (max-width:1080px)
+{
+
+    #conoceme .contenedor-biografia
+    {
+        width: 32%;
+        height: 320px;
+    }
+
+    #conoceme .yo
+    {
+        width: 32%;
+        height:320px;
+    }
+
+}
+
+@media (max-width:1050px)
+{
+
+    #conoceme .contenedor-biografia
+    {
+        width: 34%;
+        height: 320px;
+    }
+
+    #conoceme .yo
+    {
+        width: 34%;
+        height:320px;
+    }
+}
+
+@media (max-width:1030px)
+{
+
+    #proyectos .proyectos .proyecto a
+    {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:995px)
+{
+
+    .cabecero .titulo-cabecero
+    {
+        top: 8%;
+        left: 19%;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 36%;
+        height: 330px;
+    }
+
+    #conoceme .yo
+    {
+        width: 36%;
+        height:330px;
+    }
+
+    #proyectos .proyectos .proyecto a
+    {
+        margin-bottom:15px;
+    }
+
+    .cabecero .conoceme
+    {
+        left: 10%;
+    }
+
+    .cabecero .cabecero-proyectos
+    {
+        left: 30%;
+    }
+
+    .cabecero .cabecero-conocimiento
+    {
+        left: 49%;
+    }
+
+    .cabecero .cabecero-contacto
+    {
+        left: 74%;
+    }
+}
+
+@media (max-width:960px)
+{
+
+    .cabecero .titulo-cabecero
+    {
+        top: 8%;
+        left: 18%;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 350px;
+        height: 350px;
+    }
+
+    #conoceme .yo
+    {
+        width: 350px;
+        height:350px;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 37%;
+    }
+}
+
+@media (max-width:930px)
+{
+    .cabecero .titulo-cabecero
+    {
+        top: 8%;
+        left: 17%;
+    }
+
+    #conocimientos .container-conocimientos .conocimientos .conocimiento
+    {
+        width: 155px;
+        height: 155px;
+    }
+
+    .react
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .express
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .git
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .node 
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .mysql
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .jquery
+    {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media (max-width:900px)
+{
+    #hamburguesa
+    {
+        display: none;
+    }
+
+    .contenedor-hamburguesa
+    {
+        display: block;
+        width: 15px;
+        height: 50px;
+        position: fixed;
+        top: 3%;
+        left: 7%;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 10;
+        color: white;
+    }
+
+    .hamburguesa .conoceme
+    {
+        top: 10%;
+        left: 33%;
+    }
+
+    .hamburguesa .cabecero-proyectos
+    {
+        top: 30%;
+        left: 33%;
+    }
+
+    .hamburguesa .cabecero-conocimiento
+    {
+        top: 50%;
+        left: 33%;
+    }
+
+    .hamburguesa .cabecero-contacto
+    {
+        top: 70%;
+        left: 33%;
+    }
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 17%;
+    }
+
+    #conocimientos .container-conocimientos .titulo-conocimientos h3
+    {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:850px)
+{
+    .contenedor-hamburguesa
+    {
+        left: 8%;
+    }
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 13%;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 42%;
+    }
+}
+
+@media (max-width:800px)
+{
+    .hamburguesa
+    {
+        width: 50%;
+    }
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 11%;
+    }
+
+    #conocimientos .container-conocimientos .titulo-conocimientos h3
+    {
+        font-size: 25px;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 320px;
+        height: 320px;
+    }
+
+    #conoceme .yo
+    {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width:750px)
+{
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 9.5%;
+    }
+
+    #conocimientos .container-conocimientos .titulo-conocimientos
+    {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width:730px)
+{
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 13%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+       font-size: 25px;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+    }
+
+    #conoceme .contenedor-biografia h2
+    {
+        margin-top: 10px;
+    }
+
+
+    #conoceme .yo
+    {
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+    }
+
+    .js
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+    .html
+    {
+        width: 100px;
+        height: 112px;
+    }
+
+    .css
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+    .react
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .express
+    {
+        width: 80px;
+        height: 60px;
+    }
+
+    .git
+    {
+        width: 80px;
+        height: 60px;
+    }
+
+    .node 
+    {
+        width: 100px;
+        height: 60px;
+    }
+
+    .mysql
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .jquery
+    {
+        width: 80px;
+        height: 60px;
+    }
+
+    #conocimientos .container-conocimientos .conocimientos .conocimiento
+    {
+        width: 135px;
+        height: 135px;
+    }
+
+}
+
+@media (max-width:700px)
+{
+    #conoceme
+    {
+        flex-wrap: wrap;
+    }
+
+    #proyectos .container-proyectos .titulo-proyecto h3
+    {
+        font-size: 25px;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 51%;
+    }
+
+    #contacto .container-footer .contactos .elemento
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width:650px)
+{
+    #conocimientos .container-conocimientos .conocimientos
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #conocimientos .container-conocimientos .conocimientos .conocimiento
+    {
+        margin: 7px;
+    }
+
+    .hamburguesa
+    {
+        width: 100%;
+    }
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 15%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:600px)
+{
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 13.5%;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 60%;
+    }
+
+    .contenedor-hamburguesa
+    {
+        margin-left:10px;
+    }
+}
+
+@media (max-width:530px)
+{
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 12%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 19px;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 70%;
+    }
+}
+
+@media (max-width:480px)
+{
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 9%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 17.5px;
+    }
+}
+
+@media (max-width:460px)
+{
+
+    .cabecero .titulo-cabecero
+    {
+        top: 35%;
+        left: 7%;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 95%;
+    }
+
+    #contacto .container-footer .contactos i
+    {
+        font-size: 21.5px;
+    }
+
+    #contacto .container-footer .contactos li
+    {
+        width: 56%;
+        font-size: 13.5px;
+        margin-left: 28px;
+    }
+
+    #contacto .container-footer .contactos .elemento a
+    {
+        width: 8%;
+        font-size: 15px;
+    }
+
+    #contacto .container-footer .contactos .elemento a i
+    {
+        left: 72.5%;
+    }
+
+}
+
+@media (max-width:410px)
+{
+    .cabecero .titulo-cabecero
+    {
+        top: 16%;
+        left: 7%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 15.5px;
+    }
+
+    .cabecero .conoceme
+    {
+        width: 140px;
+        height: 67px;
+    }
+
+    .hamburguesa .conoceme
+    {
+        top: 10%;
+        left: 28%;
+    }
+
+    .hamburguesa .cabecero-proyectos
+    {
+        top: 30%;
+        left: 28%;
+    }
+
+    .hamburguesa .cabecero-conocimiento
+    {
+        top: 50%;
+        left: 28%;
+    }
+
+    .hamburguesa .cabecero-contacto
+    {
+        top: 70%;
+        left: 28%;
+    }
+}
+
+@media (max-width:370px)
+{
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 13.5px;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+    #conoceme .yo
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+    #conoceme .contenedor-biografia h2 
+    {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    #proyectos .proyectos .proyecto a
+    {
+        margin-bottom: 38px;
+    }
+
+    #conoceme .contenedor-biografia p 
+    {
+        font-size: 12px;
+    }
+
+    #contacto .container-footer .contactos .elemento
+    {
+        display: block;
+    }
+
+    #contacto .container-footer .contactos .elemento a
+    {
+        width: 82%;
+        margin-bottom: 8px;
+    }
+
+    #contacto .container-footer .contactos .elemento a i
+    {
+        left: 0%;
+        top: 53.5%;
+    }
+}
+
+@media (max-width:350px)
+{
+    #proyectos .container-proyectos
+    {
+        padding: 6px;
+    }
+
+    #proyectos .proyectos .proyecto
+    {
+        width: 100%;
+    }
+
+    .cabecero .titulo-cabecero
+    {
+        left: 14%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 11.5px;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    #conoceme .contenedor-biografia h2
+    {   
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:315px)
+{
+    .cabecero .titulo-cabecero
+    {
+        left:5%;
+        top: 12%;
+    }
+
+    .cabecero .titulo-cabecero h1
+    {
+        font-size: 15.5px;
+        text-align: center;
+    }
+
+    .hamburguesa .conoceme
+    {
+        top: 10%;
+        left: 23%;
+    }
+
+    .hamburguesa .cabecero-proyectos
+    {
+        top: 30%;
+        left: 23%;
+    }
+
+    .hamburguesa .cabecero-conocimiento
+    {
+        top: 50%;
+        left: 23%;
+    }
+
+    .hamburguesa .cabecero-contacto
+    {
+        top: 70%;
+        left: 23%;
+    }
+
+    #conoceme .contenedor-biografia
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #conoceme .contenedor-biografia h2
+    {
+        font-size: 13px;
+    }
+
+    #conoceme .contenedor-biografia p
+    {
+        font-size: 11px;
+    }
+
+    #proyectos .container-proyectos
+    {
+        padding: 0px;
+    }
+
+    #proyectos .proyectos .proyecto a
+    {
+        margin-bottom: 38px;
+    }
+}
