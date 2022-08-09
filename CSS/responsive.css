@@ -193,6 +193,12 @@
         width: 100px;
         height: 80px;
     }
+
+    .adobe
+    {
+        width: 80px;
+        height: 100px;
+    }
 }
 
 @media (max-width:900px)

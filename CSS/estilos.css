@@ -33,6 +33,12 @@ a
     height: 132px;
 }
 
+.bootstrap
+{
+    width: 105px;
+    height: 105px;
+}
+
 .css
 {
     width: 105px;
@@ -51,28 +57,17 @@ a
     height: 115px;
 }
 
-.express
-{
-    width: 123px;
-    height: 100px;
-}
 
 .git
 {
-    width: 123px;
+    width: 133px;
     height: 100px;
 }
 
-.node 
+.adobe
 {
-    width: 123px;
-    height: 102px;
-}
-
-.mysql
-{
-    width: 123px;
-    height: 100px;
+    width: 120px;
+    height: 130px;
 }
 
 .jquery
